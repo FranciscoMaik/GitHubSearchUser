@@ -1,4 +1,8 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+
+interface StyleProps{
+    inputValue: boolean;
+}
 
 export const Container = styled.div`
     display: flex;
@@ -31,11 +35,19 @@ export const DivHeadAlign = styled.div`
     margin-top: 24px;
 `;
 
-export const Input = styled.input`
+export const Input = styled.input<StyleProps>`
     padding: 8px;
     width: 400px;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
+    border: 1px solid transparent;
+    
+    ${props => 
+        props.inputValue && 
+        css`
+            border: 1px solid #ff0000;
+        `
+    }
 `;
 
 export const ButtonSearch = styled.button`
@@ -43,7 +55,10 @@ export const ButtonSearch = styled.button`
     border-radius: 0px;
     border-bottom-right-radius: 4px;
     border-top-right-radius: 4px;
+    background-color: #fcfcfc;
+    cursor: pointer;
 `;
+
 
 export const Body = styled.div`
     display: flex;
