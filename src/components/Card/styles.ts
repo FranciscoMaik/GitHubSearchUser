@@ -13,12 +13,30 @@ export const Container = styled.div`
 
 export const NameRepo = styled.h2``;
 
+export const Description = styled.p`
+    color: #595959;
+    margin-top: 4px;
+`;
+
+export const Link = styled.a`
+    margin-top: 4px;
+`;
+
 export const DivInformations = styled.div`
     display: flex;
     justify-content: space-around;
     margin-top: 12px;
 `;
 
-export const DivItemInfo = styled.div``;
+export const DivItemInfo = styled.div`
+    display: flex;
+    flex-direction: row;
+`;
 
-export const TextItem = styled.p``;
+export const TextItem = styled.p`
+    margin-left: 4px;
+`;
+
+export const ValueItem = styled.p`
+    margin-left: 4px;
+`;    
