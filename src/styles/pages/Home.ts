@@ -1,22 +1,29 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    flex: 1;
-    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 `;
 
 export const Head = styled.div`
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+    width: 580px;
+    border-radius: 8px;
+    background: #4D4D4D;
     justify-content: center;
     align-items: center;
-    border-bottom-width: 1px solid #000000;
+    margin-bottom: 48px;
+    margin-top: 24px;
 `;
 
 export const Title = styled.p`  
     font-weight: bold;
     font-size: xx-large;
+    color: #ffffff;
 `; 
 
 export const DivHeadAlign = styled.div`
@@ -39,7 +46,9 @@ export const ButtonSearch = styled.button`
 `;
 
 export const Body = styled.div`
-    flex: 1;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 580px;
+    height: 480px;
+    overflow-y: auto;
 `; 
