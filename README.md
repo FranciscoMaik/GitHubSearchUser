@@ -59,4 +59,4 @@ A aplicação utiliza da API do Github para fazer a listagem  de repositórios d
  - [ ] Adicionar imagem do usuário.
 
 ## Licença
-[Licença MIT](https://github.com/FranciscoMaik/postits_clients/blob/main/LICENSE)  ©[FranciscoMaik](https://www.linkedin.com/in/francisco-maik-fonseca-nunes-468511184/)
+[Licença MIT](https://github.com/FranciscoMaik/GitHubSearchUser/blob/main/LICENSE)  ©[FranciscoMaik](https://www.linkedin.com/in/francisco-maik-fonseca-nunes-468511184/)
